@@ -14,14 +14,19 @@ Quarto enables you to weave together content and executable code into a finished
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
+<<<<<<< HEAD
 1 + 2
+=======
+1 + 1
+"hi"
+>>>>>>> 3eb8204e5d44f1a1d31e055dd8630fc2dc0c4794
 ```
 
 You can add options to executable code like this
 
 ```{r}
 #| echo: false
-2 * 2
+13 * 13
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
